@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  header .container {
+    margin-top: 7rem;
+  }
+
+  main .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  main .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  main .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  main .numbers .rect h1 {
+    font-size: 2rem;
+  }
+  main .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+  main .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  main .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+  main .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  main .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  main .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  main .section-4 .card {
+    width: 22rem;
+    margin-left: -5vmin;
+  }
+  main .section-4 .carousel-inner {
+    margin-left: -4vmin;
+    width: 22rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+  header .container {
+    margin-top: 1rem !important;
+  }
+
+  main .section-4 .carousel-inner {
+    width: 18 rem;
+  }
+  main .section-4 .card {
+    width: 22rem;
+    margin-left: -3vmin;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main .section-4 .card {
+    width: 18rem;
+  }
+  main .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+  header .container {
+    margin-top: 30px;
+  }
+}
